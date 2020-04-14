@@ -43,7 +43,7 @@ store = new (Vuex.Store)(
 Vue.config.productionTip = false
 Vue.use new VueSocketIO(
   debug: true
-  connection: 'https://gimkit-backend.glitch.me/'
+  connection: 'https://gimkit-backend.now.sh/'
   vuex:
     store: store
     actionPrefix: 'SOCKET_'
@@ -55,4 +55,3 @@ new Vue({
   render: (h) ->
     h App
 }).$mount("#app")
-
