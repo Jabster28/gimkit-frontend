@@ -1,0 +1,95 @@
+{
+  "projects": [
+    {
+      "id": "jpHSGIGo",
+      "path": "/app",
+      "favorite": 0,
+      "type": "vue",
+      "name": "thang",
+      "openDate": 1584542059924,
+      "widgets": [
+        {
+          "id": "w62pnxqYF",
+          "definitionId": "org.vue.widgets.kill-port",
+          "x": 3,
+          "y": 0,
+          "width": 2,
+          "height": 1,
+          "configured": true,
+          "config": null
+        },
+        {
+          "id": "w7hGni_H",
+          "definitionId": "org.vue.widgets.plugin-updates",
+          "x": 3,
+          "y": 1,
+          "width": 2,
+          "height": 1,
+          "config": null,
+          "configured": true
+        },
+        {
+          "id": "QLqfZ0vl",
+          "definitionId": "org.vue.widgets.run-task",
+          "x": 3,
+          "y": 2,
+          "width": 2,
+          "height": 1,
+          "config": {
+            "task": "/app:build"
+          },
+          "configured": true
+        },
+        {
+          "id": "hmanu5mG",
+          "definitionId": "org.vue.widgets.vulnerability",
+          "x": 5,
+          "y": 0,
+          "width": 2,
+          "height": 1,
+          "config": null,
+          "configured": true
+        },
+        {
+          "id": "jE4QAS6R",
+          "definitionId": "org.vue.widgets.dependency-updates",
+          "x": 5,
+          "y": 1,
+          "width": 2,
+          "height": 1,
+          "config": null,
+          "configured": true
+        },
+        {
+          "id": "AQ7NHFYZ",
+          "definitionId": "org.vue.widgets.news",
+          "x": 0,
+          "y": 0,
+          "width": 3,
+          "height": 3,
+          "config": {
+            "url": "https://vuenews.fireside.fm/rss"
+          },
+          "configured": true
+        },
+        {
+          "id": "Sj1pCIFn",
+          "definitionId": "org.vue.widgets.run-task",
+          "x": 5,
+          "y": 2,
+          "width": 2,
+          "height": 1,
+          "config": {
+            "task": "/app:refresh"
+          },
+          "configured": true
+        }
+      ]
+    }
+  ],
+  "foldersFavorite": [],
+  "tasks": [],
+  "config": {
+    "lastOpenProject": "jpHSGIGo"
+  }
+}
